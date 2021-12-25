@@ -7,6 +7,9 @@
     <ClCompile Include="C:\MyProjects\DrogonFly\controllers\Allocator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\plugins\InMemStorage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\MyProjects\DrogonFly\CMakeLists.txt" />
@@ -15,5 +18,10 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{1F551AAF-E64A-38A9-A034-FAF5BD276CFB}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\plugins\InMemStorage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

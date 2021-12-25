@@ -11,6 +11,8 @@ RUN drogon_ctl create project drogonfly
 WORKDIR /drogonproj/drogonfly/controllers
 RUN cd /drogonproj/drogonfly/controllers
 
+RUN mkdir -p /drogonproj/drogonfly/storage
+
 COPY main.cc /drogonproj/drogonfly
 COPY Allocator.h /drogonproj/drogonfly/controllers/
 COPY Allocator.cc /drogonproj/drogonfly/controllers/
