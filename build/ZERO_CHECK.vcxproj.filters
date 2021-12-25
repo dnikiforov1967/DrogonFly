@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\MyProjects\DrogonFly\build\CMakeFiles\72550129a17bfd89489234f7e284b133\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A3C1EF78-FD6E-3DE3-AA11-8E181BC07429}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
