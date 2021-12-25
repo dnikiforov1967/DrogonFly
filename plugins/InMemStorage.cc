@@ -18,12 +18,16 @@ void InMemStorage::shutdown()
     /// Shutdown the plugin
 }
 
-void InMemStorage::saveLocation()
+void InMemStorage::saveLocation(Json::Value& value)
 {
-    /// Shutdown the plugin
+    
 }
 
-void InMemStorage::getLocation()
+void InMemStorage::getLocation(Json::Value& value)
 {
-    /// Shutdown the plugin
+    
+}
+
+void InMemStorage::getLocations(std::list<Json::Value>& list) {
+
 }

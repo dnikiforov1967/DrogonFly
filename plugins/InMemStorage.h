@@ -7,6 +7,7 @@
 #pragma once
 
 #include <drogon/plugins/Plugin.h>
+#include <memory>
 
 /**
 * 
@@ -15,6 +16,8 @@
 */
 class InMemStorage : public drogon::Plugin<InMemStorage>
 {
+    //Here we should have the concurrent container
+  
   public:
     InMemStorage() {}
 
@@ -29,7 +32,8 @@ class InMemStorage : public drogon::Plugin<InMemStorage>
     /// It must be implemented by the user.
     virtual void shutdown() override;
 
-    void saveLocation();
-    void getLocation();
+    void saveLocation(Json::Value& value);
+    void getLocation(Json::Value& value);
+    void getLocations(std::list<Json::Value>& list);
 };
 
